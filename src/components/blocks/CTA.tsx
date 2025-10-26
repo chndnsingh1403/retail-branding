@@ -19,7 +19,7 @@ export default function CTA() {
               </p>
               <ul className="mt-4 space-y-1 text-sm text-muted-foreground">
                 <li>📍 {brand.cities.join(" • ")}</li>
-                <li>📞 {brand.phone}</li>
+                <li>📞 {brand.contactPerson ? `${brand.contactPerson}: ${brand.phone}` : brand.phone}</li>
                 <li>✉️ {brand.email}</li>
               </ul>
               <div className="mt-6 flex flex-wrap items-center gap-3">

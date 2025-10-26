@@ -11,11 +11,12 @@ export const retailBrandingConfig: IndustryConfig = {
 
   brand: {
     name: "Delhi Print & Install Co.",
-    phone: "+91-98765-43210",
-    whatsapp: "919876543210",
+    phone: "+91 9172408820",
+    whatsapp: "919172408820",
     email: "hello@delhiprintinstall.in",
     cities: ["Delhi", "Gurgaon", "Noida", "Faridabad"],
-    website: "https://delhiprintinstall.in"
+    website: "https://delhiprintinstall.in",
+    contactPerson: "Amit Singh"
   },
 
   theme: {

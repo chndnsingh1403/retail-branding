@@ -17,6 +17,7 @@ export interface IndustryConfig {
     email: string;
     cities: string[];
     website?: string;
+    contactPerson?: string;
   };
 
   // Theme Configuration
