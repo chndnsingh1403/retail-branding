@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --muted-foreground: #64748b; /* slate-500-ish */
+}
+.text-muted-foreground { color: var(--muted-foreground); }
+.bg-glass { backdrop-filter: blur(8px); background: rgba(255,255,255,.7); }
