@@ -28,11 +28,11 @@ export default function Hero() {
               {config.hero.subtitle}
             </p>
             <div className="mt-4 flex flex-wrap items-center gap-2 sm:mt-6 sm:gap-3">
-              <Button asChild size="lg" href={`https://wa.me/${brand.whatsapp}?text=Hi%20${encodeURIComponent(brand.name)}%2C%20I%20need%20${encodeURIComponent(config.industry.tagline.toLowerCase())}.`} className="rounded-2xl shadow">
+              <Button asChild size="lg" href={`https://wa.me/${brand.whatsapp}?text=Hi%20${encodeURIComponent(brand.contactPerson || brand.name)}%2C%20I%20need%20${encodeURIComponent(config.industry.tagline.toLowerCase())}.`} className="rounded-2xl shadow">
                 <span className="inline-flex items-center"><MessagesSquare className="mr-2 h-4 w-4" /> {config.hero.ctaText.primary}</span>
               </Button>
               <Button asChild variant="outline" size="lg" href={`tel:${brand.phone}`} className="rounded-2xl">
-                <span className="inline-flex items-center"><Phone className="mr-2 h-4 w-4" /> {config.hero.ctaText.secondary} {brand.phone}</span>
+                <span className="inline-flex items-center"><Phone className="mr-2 h-4 w-4" /> {config.hero.ctaText.secondary} {brand.contactPerson || brand.phone}</span>
               </Button>
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
