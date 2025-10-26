@@ -20,11 +20,11 @@ export default function Portfolio() {
               <div className="relative aspect-video w-full">
                 <Image src={item.image} alt={item.title} fill className="object-cover" />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/0 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-              <div className="absolute bottom-2 left-2 flex items-center gap-2 rounded-full bg-white/80 px-2 py-1 text-xs font-medium backdrop-blur sm:bottom-3 sm:left-3 sm:px-3">
-                <span>{item.tag}</span>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-black/20" />
+              <div className="absolute top-2 left-2 flex items-center gap-2 rounded-full bg-white/90 px-2 py-1 text-xs font-medium backdrop-blur sm:top-3 sm:left-3 sm:px-3">
+                <span className="text-slate-700">{item.tag}</span>
               </div>
-              <div className="absolute bottom-2 right-2 text-xs font-semibold text-white drop-shadow sm:bottom-3 sm:right-3">{item.title}</div>
+              <div className="absolute bottom-2 left-2 right-2 text-xs font-semibold text-white drop-shadow-lg sm:bottom-3 sm:left-3 sm:right-3 sm:text-sm" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>{item.title}</div>
             </div>
           ))}
         </div>

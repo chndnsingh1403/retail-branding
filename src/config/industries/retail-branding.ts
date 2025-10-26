@@ -47,9 +47,9 @@ export const retailBrandingConfig: IndustryConfig = {
       "Mall‑Approved Teams",
       "Competitive Pricing"
     ],
-    recentWork: "Recent installs • CP, Ambience, DLF, GIP",
+    recentWork: "Recent brand installs • CALIFORNIA BURRITO",
     heroImage: {
-      src: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+      src: "/images/installs/california2.jpg",
       alt: "Professional retail store branding installation in a modern mall"
     }
   },
@@ -86,101 +86,101 @@ export const retailBrandingConfig: IndustryConfig = {
     subtitle: "Premium retail store branding and mall installations we're proud of.",
     items: [
       {
-        title: "Mall Store Window Branding",
-        tag: "Window Graphics",
-        image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
-        alt: "Mall store window branding installation"
+        title: "Reebok Store Branding",
+        tag: "Sports Brand",
+        image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=1200&auto=format&fit=crop",
+        alt: "Reebok store exterior branding and signage installation"
       },
       {
-        title: "Retail Store Facade Signage",
+        title: "Puma Outlet Facade",
         tag: "Facade Branding",
-        image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1200&auto=format&fit=crop",
-        alt: "Retail store facade signage"
+        image: "https://images.unsplash.com/photo-1586880244386-8b3e34c8382c?q=80&w=1200&auto=format&fit=crop",
+        alt: "Puma outlet storefront facade branding"
       },
       {
-        title: "Shopping Mall Directory",
-        tag: "Wayfinding",
-        image: "https://images.unsplash.com/photo-1555529902-4904937b749d?q=80&w=1200&auto=format&fit=crop",
-        alt: "Shopping mall directory system"
+        title: "Reliance Digital Store",
+        tag: "Electronics Retail",
+        image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1200&auto=format&fit=crop",
+        alt: "Reliance Digital store branding and signage"
       },
       {
-        title: "Retail Interior Branding",
-        tag: "Interior Graphics",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
-        alt: "Retail interior branding graphics"
+        title: "Tanishq Jewelry Store",
+        tag: "Luxury Retail",
+        image: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1200&auto=format&fit=crop",
+        alt: "Tanishq jewelry store exterior branding"
       },
       {
-        title: "Fashion Store Display",
-        tag: "Display Graphics",
-        image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop",
-        alt: "Fashion store display graphics"
+        title: "Nike Store Installation",
+        tag: "Brand Signage",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+        alt: "Nike store brand signage installation"
       },
       {
-        title: "Mall Kiosk Branding",
-        tag: "Kiosk Design",
-        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1200&auto=format&fit=crop",
-        alt: "Mall kiosk branding design"
+        title: "Lifestyle Store Display",
+        tag: "Mall Branding",
+        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop",
+        alt: "Lifestyle store display and branding"
       }
     ]
   },
 
   recentWork: {
     title: "Recent Mall Installations",
-    subtitle: "Featured projects across CP, Ambience Mall, DLF, GIP and other premium locations",
+    subtitle: "Featured brand outlet projects across CP, Ambience Mall, DLF, GIP and other premium locations",
     items: [
       {
-        title: "CP Store Branding",
+        title: "Reebok Store - CP",
         location: "Connaught Place",
-        image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop",
-        alt: "CP store branding installation"
+        image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=800&auto=format&fit=crop",
+        alt: "Reebok store exterior branding at Connaught Place"
       },
       {
-        title: "Ambience Mall Signage",
+        title: "Puma Outlet - Ambience",
         location: "Ambience Mall, Gurgaon",
-        image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800&auto=format&fit=crop",
-        alt: "Ambience Mall signage installation"
+        image: "https://images.unsplash.com/photo-1586880244386-8b3e34c8382c?q=80&w=800&auto=format&fit=crop",
+        alt: "Puma outlet storefront at Ambience Mall"
       },
       {
-        title: "DLF Mall Graphics",
+        title: "Reliance Digital - DLF",
         location: "DLF Malls",
-        image: "https://images.unsplash.com/photo-1555529902-4904937b749d?q=80&w=800&auto=format&fit=crop",
-        alt: "DLF Mall graphics installation"
+        image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=800&auto=format&fit=crop",
+        alt: "Reliance Digital store branding at DLF"
       },
       {
-        title: "GIP Store Installation",
+        title: "Tanishq Showroom - GIP",
         location: "Great India Place",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-        alt: "GIP store installation"
+        image: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=800&auto=format&fit=crop",
+        alt: "Tanishq jewelry showroom branding at GIP"
       },
       {
-        title: "Fashion Outlet Branding",
-        location: "Delhi NCR",
-        image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=800&auto=format&fit=crop",
-        alt: "Fashion outlet branding"
+        title: "Nike Store - Select City",
+        location: "Select City Walk",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+        alt: "Nike store branding installation"
       },
       {
-        title: "Electronics Store Display",
-        location: "Mall Installation",
-        image: "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=800&auto=format&fit=crop",
-        alt: "Electronics store display"
+        title: "Lifestyle Store - DLF",
+        location: "DLF Mall of India",
+        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=800&auto=format&fit=crop",
+        alt: "Lifestyle store facade branding"
       },
       {
-        title: "Food Court Branding",
-        location: "Multiple Malls",
-        image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop",
-        alt: "Food court branding"
+        title: "Samsung Store - Ambience",
+        location: "Ambience Mall",
+        image: "https://images.unsplash.com/photo-1586901533048-0e856dff2c0d?q=80&w=800&auto=format&fit=crop",
+        alt: "Samsung store display installation"
       },
       {
-        title: "Jewelry Store Graphics",
-        location: "Premium Mall",
-        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&auto=format&fit=crop",
-        alt: "Jewelry store graphics"
-      },
-      {
-        title: "Sports Store Installation",
-        location: "Metro Mall",
+        title: "Adidas Outlet - Phoenix",
+        location: "Phoenix MarketCity",
         image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
-        alt: "Sports store installation"
+        alt: "Adidas outlet branding graphics"
+      },
+      {
+        title: "Westside Store - GIP",
+        location: "Great India Place",
+        image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=800&auto=format&fit=crop",
+        alt: "Westside store exterior branding"
       }
     ]
   },
