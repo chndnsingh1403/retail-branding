@@ -14,20 +14,20 @@ export default function Hero() {
     <Section id="home" className="relative">
       <GradientBg />
       <Container>
-        <div className="grid items-center gap-10 md:grid-cols-2">
+        <div className="grid items-center gap-6 sm:grid-cols-2 sm:gap-8 md:gap-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            <span className="inline-flex items-center rounded-full bg-white/60 px-3 py-1 text-xs font-medium backdrop-blur">
+            <span className="inline-flex items-center rounded-full bg-white/60 px-2 py-1 text-xs font-medium backdrop-blur sm:px-3">
               <MapPin className="mr-1 h-3 w-3" /> {brand.cities.join(" • ")}
             </span>
-            <h1 className="mt-4 text-4xl font-bold tracking-tight md:text-5xl">
-              {config.hero.title.line1} <span className={`bg-gradient-to-r ${config.theme.gradients.primary} bg-clip-text`}>{config.hero.title.highlighted1}</span> &
+            <h1 className="mt-3 text-3xl font-bold tracking-tight sm:mt-4 sm:text-4xl md:text-5xl">
+              {config.hero.title.line1} <span className={`bg-gradient-to-r ${config.theme.gradients.primary} bg-clip-text text-transparent`}>{config.hero.title.highlighted1}</span> &
               <br />
-              {config.hero.title.line2} <span className={`bg-gradient-to-r ${config.theme.gradients.secondary} bg-clip-text`}>{config.hero.title.highlighted2}</span>
+              {config.hero.title.line2} <span className={`bg-gradient-to-r ${config.theme.gradients.secondary} bg-clip-text text-transparent`}>{config.hero.title.highlighted2}</span>
             </h1>
-            <p className="mt-4 text-base text-muted-foreground md:text-lg">
+            <p className="mt-3 text-sm text-muted-foreground sm:mt-4 sm:text-base md:text-lg">
               {config.hero.subtitle}
             </p>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
+            <div className="mt-4 flex flex-wrap items-center gap-2 sm:mt-6 sm:gap-3">
               <Button asChild size="lg" href={`https://wa.me/${brand.whatsapp}?text=Hi%20${encodeURIComponent(brand.name)}%2C%20I%20need%20${encodeURIComponent(config.industry.tagline.toLowerCase())}.`} className="rounded-2xl shadow">
                 <span className="inline-flex items-center"><MessagesSquare className="mr-2 h-4 w-4" /> {config.hero.ctaText.primary}</span>
               </Button>
