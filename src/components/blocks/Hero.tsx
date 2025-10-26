@@ -20,9 +20,9 @@ export default function Hero() {
               <MapPin className="mr-1 h-3 w-3" /> {brand.cities.join(" • ")}
             </span>
             <h1 className="mt-3 text-3xl font-bold tracking-tight sm:mt-4 sm:text-4xl md:text-5xl">
-              {config.hero.title.line1} <span className={`bg-gradient-to-r ${config.theme.gradients.primary} bg-clip-text text-transparent`}>{config.hero.title.highlighted1}</span> &
+              {config.hero.title.line1} <span className={`bg-gradient-to-r ${config.theme.gradients.primary} bg-clip-text `}>{config.hero.title.highlighted1}</span> &
               <br />
-              {config.hero.title.line2} <span className={`bg-gradient-to-r ${config.theme.gradients.secondary} bg-clip-text text-transparent`}>{config.hero.title.highlighted2}</span>
+              {config.hero.title.line2} <span className={`bg-gradient-to-r ${config.theme.gradients.secondary} bg-clip-text `}>{config.hero.title.highlighted2}</span>
             </h1>
             <p className="mt-3 text-sm text-muted-foreground sm:mt-4 sm:text-base md:text-lg">
               {config.hero.subtitle}
